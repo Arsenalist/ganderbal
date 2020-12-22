@@ -29,6 +29,9 @@
     "ganderbal-e2e": {
       "tags": [],
       "implicitDependencies": ["ganderbal"]
+    },
+    "api": {
+      "tags": []
     }
   }
 }
