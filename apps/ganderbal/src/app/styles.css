@@ -1,0 +1,33 @@
+
+.games-layout {
+  display: compact;
+  justify-content: right;
+  margin-bottom: 20px;
+}
+
+.container {
+  max-width: 600px;
+  display: flow;
+  margin: 50px auto;
+}
+
+.game-card {
+  max-width: 500px;
+  display: compact;
+  flex-direction: row;
+  justify-content:space-between;
+}
+
+.rating {
+  padding-top: 10px;
+}
+
+.game-details {
+  display: compact;
+  flex-direction: column-reverse;
+  margin: 0;
+}
+
+.game-card-media {
+  height: 140 px;
+}

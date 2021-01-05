@@ -32,6 +32,15 @@
     },
     "api": {
       "tags": []
+    },
+    "ganderbal-ui-shared": {
+      "tags": []
+    },
+    "ganderbal-util-formatters": {
+      "tags": []
+    },
+    "ganderbal-feature-name-detail": {
+      "tags": []
     }
   }
 }

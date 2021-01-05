@@ -1,0 +1,77 @@
+const names = [
+  {
+    id: 'nurse assistant',
+    name: 'CNA',
+    image: './assets/icon.png',
+    description: 'Certified Nurse Assistant or med aid with different certifications',
+    price: 25,
+    rating: Math.random(),
+  },
+  {
+    id: 'registered nurse',
+    name: 'Registered Nurse',
+    image: './assets/icon.png',
+    description: 'for those with telemtry, stroke , icu experience',
+    price: 45,
+    rating: Math.random(),
+  },
+  {
+    id: 'physician assistants',
+    name: 'Physician Assistants',
+    image: './assets/icon.png',
+    description: 'Physician Assistant',
+    price: 45,
+    rating: Math.random(),
+  },
+  {
+    id: 'nurse practitioner',
+    name: 'Nurse Practioner',
+    image: './assets/icon.png',
+    description: 'np with fp or psychiatry',
+    price: 95,
+    rating: Math.random(),
+  },
+  {
+    id: 'respiratory therapists',
+    name: 'Respiratory Therapist',
+    image: './assets/icon.png',
+    description: 'respiratory therapists board certified',
+    price: 555,
+    rating: Math.random(),
+  },
+  {
+    id: 'physical therapists',
+    name: 'Physical Therapist',
+    image: './assets/icon.png',
+    description: 'Physician therapists',
+    price: 45,
+    rating: Math.random(),
+  },
+  {
+    id: 'occupational therapists',
+    name: 'Occupational Therapist',
+    image: './assets/icon.png',
+    description: 'occupational therapy',
+    price: 45,
+    rating: Math.random(),
+  },
+  {
+    id: 'speech therapists',
+    name: 'Speech therapist ',
+    image: './assets/icon.png',
+    description: 'speech therapy board certified',
+    price: 45,
+    rating: Math.random(),
+  },
+  {
+    id: 'physicians',
+    name: 'Physician',
+    image: './assets/icon.png',
+    description: 'board certified medical or surgical specialties',
+    price: 130,
+    rating: Math.random(),
+  },
+];
+
+export const getAllNames = () => names;
+export const getName = (id: string) => names.find((name) => name.id ===id);

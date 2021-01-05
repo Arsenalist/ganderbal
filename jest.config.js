@@ -1,3 +1,9 @@
 module.exports = {
-  projects: ['<rootDir>/apps/ganderbal', '<rootDir>/apps/api'],
+  projects: [
+    '<rootDir>/apps/ganderbal',
+    '<rootDir>/apps/api',
+    '<rootDir>/libs/ganderbal/ui-shared',
+    '<rootDir>/libs/ganderbal/util-formatters',
+    '<rootDir>/libs/ganderbal/feature-name-detail',
+  ],
 };

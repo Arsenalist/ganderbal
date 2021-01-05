@@ -14,7 +14,15 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@moz/ganderbal/ui-shared": ["libs/ganderbal/ui-shared/src/index.ts"],
+      "@moz/ganderbal/util-formatters": [
+        "libs/ganderbal/util-formatters/src/index.ts"
+      ],
+      "@moz/ganderbal/feature-name-detail": [
+        "libs/ganderbal/feature-name-detail/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

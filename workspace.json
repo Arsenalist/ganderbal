@@ -21,7 +21,9 @@
               "apps/ganderbal/src/favicon.ico",
               "apps/ganderbal/src/assets"
             ],
-            "styles": [],
+            "styles": [
+              "apps/ganderbal/src/app/styles.css"
+            ],
             "scripts": [],
             "webpackConfig": "@nrwl/react/plugins/webpack"
           },
@@ -164,6 +166,81 @@
           ],
           "options": {
             "jestConfig": "apps/api/jest.config.js",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "ganderbal-ui-shared": {
+      "root": "libs/ganderbal/ui-shared",
+      "sourceRoot": "libs/ganderbal/ui-shared/src",
+      "projectType": "library",
+      "targets": {
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "libs/ganderbal/ui-shared/**/*.{ts,tsx,js,jsx}"
+            ]
+          }
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": [
+            "coverage/libs/ganderbal/ui-shared"
+          ],
+          "options": {
+            "jestConfig": "libs/ganderbal/ui-shared/jest.config.js",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "ganderbal-util-formatters": {
+      "root": "libs/ganderbal/util-formatters",
+      "sourceRoot": "libs/ganderbal/util-formatters/src",
+      "projectType": "library",
+      "targets": {
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "libs/ganderbal/util-formatters/**/*.ts"
+            ]
+          }
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": [
+            "coverage/libs/ganderbal/util-formatters"
+          ],
+          "options": {
+            "jestConfig": "libs/ganderbal/util-formatters/jest.config.js",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "ganderbal-feature-name-detail": {
+      "root": "libs/ganderbal/feature-name-detail",
+      "sourceRoot": "libs/ganderbal/feature-name-detail/src",
+      "projectType": "library",
+      "targets": {
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "libs/ganderbal/feature-name-detail/**/*.{ts,tsx,js,jsx}"
+            ]
+          }
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": [
+            "coverage/libs/ganderbal/feature-name-detail"
+          ],
+          "options": {
+            "jestConfig": "libs/ganderbal/feature-name-detail/jest.config.js",
             "passWithNoTests": true
           }
         }
