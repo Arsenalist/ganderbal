@@ -5,5 +5,6 @@ module.exports = {
     '<rootDir>/libs/ganderbal/ui-shared',
     '<rootDir>/libs/ganderbal/util-formatters',
     '<rootDir>/libs/ganderbal/feature-name-detail',
+    '<rootDir>/libs/ganderbal/another-name-detail',
   ],
 };

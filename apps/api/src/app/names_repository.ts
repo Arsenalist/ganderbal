@@ -1,6 +1,6 @@
 const names = [
   {
-    id: 'nurse assistant',
+    id: 'nurse-assistant',
     name: 'CNA',
     image: './assets/icon.png',
     description: 'Certified Nurse Assistant or med aid with different certifications',

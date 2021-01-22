@@ -21,6 +21,9 @@
       ],
       "@moz/ganderbal/feature-name-detail": [
         "libs/ganderbal/feature-name-detail/src/index.ts"
+      ],
+      "@moz/ganderbal/another-name-detail": [
+        "libs/ganderbal/another-name-detail/src/index.ts"
       ]
     }
   },

@@ -245,6 +245,31 @@
           }
         }
       }
+    },
+    "ganderbal-another-name-detail": {
+      "root": "libs/ganderbal/another-name-detail",
+      "sourceRoot": "libs/ganderbal/another-name-detail/src",
+      "projectType": "library",
+      "targets": {
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "libs/ganderbal/another-name-detail/**/*.{ts,tsx,js,jsx}"
+            ]
+          }
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": [
+            "coverage/libs/ganderbal/another-name-detail"
+          ],
+          "options": {
+            "jestConfig": "libs/ganderbal/another-name-detail/jest.config.js",
+            "passWithNoTests": true
+          }
+        }
+      }
     }
   },
   "cli": {
